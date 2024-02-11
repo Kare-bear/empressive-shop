@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
-import {Link} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import {ShopContext} from "../../context/shop-context";
 import "./shop.css"
 
 
 export const Product = (props) => {
   const {id, brand, line, item_name, item_type, item_sku, notes, sale_price, image_url_1, image_url_2} = props.data;
+
+  
 
   const {addToCart, cartItems} = useContext(ShopContext);
 
