@@ -1,0 +1,38 @@
+.shop {
+  border: 10px solid black;
+  padding: 10px;
+}
+
+.shop h1{
+  color:black;
+  padding-bottom: 15px;
+}
+
+.displayCard{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cardBox{
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(183, 183, 183, 0.5);
+}
+
+.cardText{
+  max-width: 25vw;
+  padding: 10px;
+}
+
+.cardImages{
+  max-height: 250px;
+  
+  object-fit:contain;  
+  background-color: white;
+}
+
+.slide-container{
+  max-height: 20vh;
+}
